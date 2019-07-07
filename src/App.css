@@ -1,24 +1,204 @@
 .App {
+  text-align: end;
+  color:greenyellow;
+  min-height: 100%;
+  position: relative;
+}
+.footer{
+  background-color: red;
+  height: 50px;
+  position: fixed;
+  bottom:0;
+  color:whitesmoke;
+  width: 100%;
+  border: solid black;
+  border-radius: 3px;
+  text-align: center;
+  
+
+}
+.logoutc{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+
+.middle{
+  background-color: antiquewhite;
+  height: 50px;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+  border-radius: 6px;
+}
+.login{
+  text-align: center;
+  margin-top: 15%;
+  border:2px solid red;
+  border-radius: 6px;
+  width: 50%;
+  margin-left: 25%;
+  text-decoration: none;
+}
+.login input{
+  font-size: 25px;
+height: 50px;
+border-top: none;
+border-right: none;
+border-left: none;
+border-radius: 4px;
+border-color: red;
+margin-top: 5px;
+width: 80%;
+box-shadow: #000;
+background-color: rgba(34, 31, 31, 0.993);
+color: white;
+}
+.login button{
+  color:black;
+  background-color: red;
+  margin-top: 5px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 4px solid black;
+  
+}
+
+.register{
+  text-align: center;
+  margin-top: 10%;
+  border:2px solid red;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 6px;
+}
+.register input{
+  font-size: 25px;
+height: 50px;
+border-top: none;
+border-right: none;
+border-left: none;
+border-radius: 4px;
+border-color: red;
+margin-top: 5px;
+width: 80%;
+box-shadow: #000;
+background-color: rgba(34, 31, 31, 0.993);
+color: white;
+}
+.register button{
+  color:black;
+  background-color: red;
+  margin-top: 5px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 4px solid black;
+}
+
+.header {
+  background-color:red;
+  height: 20px;
   padding: 20px;
-  color: white;
+  color:whitesmoke;
+  border: solid black;
+  border-radius: 3px;
+  text-align: left;
+  
+}
+.Faq , .contact ,.about{
+  background-color: antiquewhite;
+  color: #000;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  height: 190px;
+  border-radius: 4px;
+}
+.header a {
+  margin-left: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.card{
+  background-color: rgba(34, 31, 31, 0.993);
+  height:150px;
+  width: 70%;
+  margin-left: 15%;
+  bottom: 0;
+  color: aliceblue;
+} 
+.card form{
+  margin-bottom: 100px;
+  margin-right: 43%;
+
+}
+.card form input{
+  height: 30px;
+  border-radius: 5px;
+}
+.card button{
+  font-size: 15px;
+  color: antiquewhite;
+  background-color: red;
+  border-radius: 5px;
+  height: 30px;
+  border: 2px ;
+}
+.card .saved{
+  float: left;
+  display: flex;
+
+}
+.border{
+  color:black;
+  margin-left: 9px;
+  background-color: antiquewhite;
+  height: 100px;
+  min-width: 50px;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+}
+.saved{
+  margin-left: 20px;
+}
+.grab{
+  float: left;
+}
+.logout{
+  float:right;
 }
 
-.App-intro {
-  font-size: large;
-}
+.roll{
+  float: left;
+  color:antiquewhite;
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  margin-left: 9px;
+  font-size: 15px;
+  border: 4px solid;
+  width: 50px;
+  background-color: red;
+  border-radius: 25px;
+  text-align: center;
+  height: 40px;
+}
+  
+.roll p{
+  -webkit-animation: rotation 3s infinite linear;
+} 
+
+@-webkit-keyframes rotation{
+  from{
+      -webkit-transform: rotate(0deg)
+  }
+  to{
+      -webkit-transform: rotate(359deg)
+  }
 }
